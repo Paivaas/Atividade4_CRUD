@@ -3,6 +3,7 @@ package br.senai.sp.jandira.model;
 import java.util.Scanner;
 
 public class Cliente {
+
     Scanner scanner = new Scanner(System.in);
     private String nome, cpf, email;
     private int id = 0;
@@ -16,14 +17,6 @@ public class Cliente {
         this.email = scanner.nextLine();
 
         System.out.println("✓ Cadastro concuido");
-    }
-
-    public Scanner getScanner() {
-        return scanner;
-    }
-
-    public void setScanner(Scanner scanner) {
-        this.scanner = scanner;
     }
 
     public String getNome() {

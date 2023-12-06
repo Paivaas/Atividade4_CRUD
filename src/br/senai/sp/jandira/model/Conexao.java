@@ -4,15 +4,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Conexao{
+public class Conexao {
     private String servidor, banco, usuario, senha;
     public Connection conexao;
 
     public Conexao (){
-            this.servidor="localhost";
-            this.banco="Atividade4";
-            this.usuario="root";
-            this.senha="bcd127";
+        this.servidor="localhost";
+        this.banco="Atividade4";
+        this.usuario="root";
+        this.senha="bcd127";
     }
 
     public void connectDriver(){
@@ -28,6 +28,4 @@ public class Conexao{
         connectDriver();
         return conexao;
     }
-
 }
-

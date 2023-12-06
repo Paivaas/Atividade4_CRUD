@@ -3,6 +3,7 @@ package br.senai.sp.jandira.model;
 import java.util.Scanner;
 
 public class Produto {
+
     Scanner scanner = new Scanner(System.in);
     private String nome, descricao, atributo;
     private int id = 0, quantidade;
